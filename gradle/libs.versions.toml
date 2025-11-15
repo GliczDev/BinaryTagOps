@@ -1,0 +1,16 @@
+[versions]
+adventure = "4.25.0"
+dfu = "7.0.14"
+fastutil = "8.5.12"
+indra = "4.0.0"
+jspecify = "1.0.0"
+
+[libraries]
+adventure-nbt = { module = "net.kyori:adventure-nbt", version.ref = "adventure" }
+dfu = { module = "com.mojang:datafixerupper", version.ref = "dfu" }
+fastutil = { module = "it.unimi.dsi:fastutil", version.ref = "fastutil" }
+jspecify = { module = "org.jspecify:jspecify", version.ref = "jspecify" }
+
+[plugins]
+indra = { id = "net.kyori.indra", version.ref = "indra" }
+indra-publishing = { id = "net.kyori.indra.publishing", version.ref = "indra" }
